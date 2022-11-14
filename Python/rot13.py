@@ -2,9 +2,9 @@ def rot13(message):
     cypher = ""
     for mess in message:
         currMessage = ord(mess)
-        if(currMessage >= 97 and currMessage <= 123):
+        if(currMessage >= 97 and currMessage < 123):
             currMessage = ((currMessage  - 84) % 26) + 97
-        elif(currMessage >= 65 and currMessage <=91):
+        elif(currMessage >= 65 and currMessage <91):
             currMessage  = ((currMessage - 52) % 26) + 65  
         cypher += chr(currMessage)
     return cypher
