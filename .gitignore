@@ -210,3 +210,5 @@ dist
 
 tempCodeRunnerFile.cpp
 .pycache
+bin
+obj
