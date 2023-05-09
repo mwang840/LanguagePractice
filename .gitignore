@@ -212,3 +212,6 @@ tempCodeRunnerFile.cpp
 .pycache
 bin
 obj
+
+cmake-build-debug/
+.idea
