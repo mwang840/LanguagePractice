@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AddingBigNumbers",
+            "request": "launch",
+            "mainClass": "AddingBigNumbers",
+            "projectName": "LanguagePractice_75d5ec66"
+        },
+        {
+            "type": "java",
             "name": "Launch BinarySearch",
             "request": "launch",
             "mainClass": "BinarySearch",
