@@ -1,49 +1,56 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "AddingBigNumbers",
-            "request": "launch",
-            "mainClass": "AddingBigNumbers",
-            "projectName": "LanguagePractice_75d5ec66"
-        },
-        {
-            "type": "java",
-            "name": "Launch BinarySearch",
-            "request": "launch",
-            "mainClass": "BinarySearch",
-            "projectName": "LanguagePractice_75d5ec66"
-        },
-        {
-            "type": "java",
-            "name": "Launch vaporCode",
-            "request": "launch",
-            "mainClass": "vaporCode",
-            "projectName": "LanguagePractice_75d5ec66"
-        },
-        {
-            "type": "java",
-            "name": "Launch MeanSqErr",
-            "request": "launch",
-            "mainClass": "MeanSqErr",
-            "projectName": "LanguagePractice_75d5ec66"
-        },
-        {
-            "name": ".NET Core Launch (console)",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Csharp/bin/Debug/net6.0/Csharp.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/Csharp",
-            "console": "internalConsole",
-            "stopAtEntry": false
-        },
-        {
-            "name": ".NET Core Attach",
-            "type": "coreclr",
-            "request": "attach"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Mumbling",
+      "request": "launch",
+      "mainClass": "Mumbling",
+      "projectName": "LanguagePractice_75d5ec66"
+    },
+    {
+      "type": "java",
+      "name": "AddingBigNumbers",
+      "request": "launch",
+      "mainClass": "AddingBigNumbers",
+      "projectName": "LanguagePractice_75d5ec66"
+    },
+    {
+      "type": "java",
+      "name": "Launch BinarySearch",
+      "request": "launch",
+      "mainClass": "BinarySearch",
+      "projectName": "LanguagePractice_75d5ec66"
+    },
+    {
+      "type": "java",
+      "name": "Launch vaporCode",
+      "request": "launch",
+      "mainClass": "vaporCode",
+      "projectName": "LanguagePractice_75d5ec66"
+    },
+    {
+      "type": "java",
+      "name": "Launch MeanSqErr",
+      "request": "launch",
+      "mainClass": "MeanSqErr",
+      "projectName": "LanguagePractice_75d5ec66"
+    },
+    {
+      "name": ".NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/Csharp/bin/Debug/net6.0/Csharp.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Csharp",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach"
+    }
+  ]
 }
