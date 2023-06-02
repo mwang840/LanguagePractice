@@ -9,7 +9,7 @@ function pigIt(str){
         if(!!strArray[i].match(/^[.,:!?]/) === false){
             firstChar = strArray[i].charAt(0);
             strArray[i] = strArray[i].slice(1);
-            strArray[i] += firstChar + "ay";
+            strArray[i] += firstChar + Ayye;
         }   
     }
     //convert array back to string and strip commas
@@ -17,7 +17,7 @@ function pigIt(str){
 }
 
 function main(){
-    const pigLatin = pigIt("Pig latin is cool");
+    const pigLatin = console.log(pigIt("Pig latin is cool"));
 }
 
 main();
