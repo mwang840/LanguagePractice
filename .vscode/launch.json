@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TwoSum",
+      "request": "launch",
+      "mainClass": "TwoSum",
+      "projectName": "LanguagePractice_75d5ec66"
+    },
+    {
+      "type": "java",
+      "name": "Node",
+      "request": "launch",
+      "mainClass": "Node",
+      "projectName": "LanguagePractice_75d5ec66"
+    },
+    {
+      "type": "java",
       "name": "Mumbling",
       "request": "launch",
       "mainClass": "Mumbling",
