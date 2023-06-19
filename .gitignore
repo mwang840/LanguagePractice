@@ -209,6 +209,7 @@ dist
 .pnp.*
 
 tempCodeRunnerFile.cpp
+tempCodeRunnerFile.rb
 .pycache
 bin
 obj
