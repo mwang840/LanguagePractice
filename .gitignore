@@ -208,8 +208,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-tempCodeRunnerFile.cpp
-tempCodeRunnerFile.rb
+
+tempCodeRunnerFile*
 .pycache
 bin
 obj
