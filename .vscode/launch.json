@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SpeedControl",
+      "request": "launch",
+      "mainClass": "SpeedControl",
+      "projectName": "LanguagePractice_75d5ec66"
+    },
+    {
+      "type": "java",
       "name": "TwoSum",
       "request": "launch",
       "mainClass": "TwoSum",
