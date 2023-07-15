@@ -7,7 +7,7 @@ class TwoSum {
         // initialize temp sum and array with size two
         // check if temp sum hits the target
         // return the indicies of the array/map
-        Map<Integer, Integer> values = new HashMap();
+        Map<Integer, Integer> values = new HashMap<Integer, Integer>();
         for (int i = 0; i < arr.length; i++) {
             int difference = target - arr[i];
             if (values.containsKey(difference)) {
