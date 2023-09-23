@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CommonPrefix",
+      "request": "launch",
+      "mainClass": "CommonPrefix",
+      "projectName": "LanguagePractice_75d5ec66"
+    },
+    {
+      "type": "java",
+      "name": "GreedIsGood",
+      "request": "launch",
+      "mainClass": "GreedIsGood",
+      "projectName": "LanguagePractice_75d5ec66"
+    },
+    {
+      "type": "java",
       "name": "DiagonalSum",
       "request": "launch",
       "mainClass": "DiagonalSum",
