@@ -14,7 +14,7 @@ using namespace std;
 
 
 struct TreeNode {
-       int val;
+    int val;
     TreeNode *left;
      TreeNode *right;
      TreeNode() : val(0), left(nullptr), right(nullptr) {}
@@ -23,16 +23,24 @@ struct TreeNode {
  };
 
  int minCameraCover(TreeNode *root){
-    int totalCameras = 0;
-    if(root == nullptr){
+    
+    if(root == NULL){
         return 1;
     }
-    else{
-        int left = minCameraCover(root->left);
-        int right = minCameraCover(root->right);
-        if(left == 1 && right == 1){
-            return 2;
-        }
+    int totalCameras = 0;
+    int left = minCameraCover(root->left);
+    int right = minCameraCover(root->right);
+    if(left == 1 && right == 1){
+        return 2;
     }
-    return totalCameras;
+    else if(left ==2 || right == 2){
+        totalCameras++;
+        return 3;
+    }
+    return 1;
  }
+
+
+int main(){
+    std::cout << "Hi";
+}
