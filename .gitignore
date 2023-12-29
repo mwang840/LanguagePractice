@@ -216,3 +216,4 @@ obj
 
 cmake-build-debug/
 .idea
+*.sln
