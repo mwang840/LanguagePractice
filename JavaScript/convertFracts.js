@@ -1,32 +1,13 @@
 function convertFrac(lst){
     //Your code here
     //First step is to grab the least common denominator
-    let denominators = lst.map(x=>x[1]);
-    //find lcm of the denominator
-    let commonMultiple = calcLcm(denominators);
-    const updatedDenom = (denom) => denom = commonMultiple;
-    let newDenominators = denominators.map(updatedDenom);
-    let newNumerators = denominators.map(numerator=> commonMultiple / numerator)
-    const fractOfTuples = newNumerators.map((value, index) => [value, newDenominators[index]]);
-    const strTuple = fractOfTuples.map(tuple => `(${tuple.join(',')})`).join('');
-    return strTuple;
+     const cd = lst.reduce((a, [_, d]) => lcm(d, a), 1);
+    return lst.map(([n, d]) => `(${n * cd/d},${cd})`).join('');
 }
 
-function calcLcm(nums){
-    if(nums.length < 2){
-        return 0;
-    }
-
-    let result = nums[0];
-    for (let i = 1; i < nums.length; i++) {
-        result = lcm(result, nums[i]);
-    }
-
-    return result;
-}
 //Calculates the greatest common demonimator of the two
 function gcd(a, b) {
-    return b === 0 ? a : gcd(b, a % b);
+    return b ? gcd(b, a % b) : a;
 }
 
 // Function to find the least common multiple (LCM) of two numbers
