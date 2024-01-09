@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RangeSumBst",
+      "request": "launch",
+      "mainClass": "RangeSumBst",
+      "projectName": "LanguagePractice_909491bf"
+    },
+    {
+      "type": "java",
       "name": "ConnectingTowns",
       "request": "launch",
       "mainClass": "ConnectingTowns",
