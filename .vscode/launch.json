@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TargetIndecies",
+      "request": "launch",
+      "mainClass": "TargetIndecies",
+      "projectName": "LanguagePractice_909491bf"
+    },
+    {
+      "type": "java",
+      "name": "LongestConsecutiveSequence",
+      "request": "launch",
+      "mainClass": "LongestConsecutiveSequence",
+      "projectName": "LanguagePractice_909491bf"
+    },
+    {
+      "type": "java",
       "name": "RangeSumBst",
       "request": "launch",
       "mainClass": "RangeSumBst",
