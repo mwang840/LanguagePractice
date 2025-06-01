@@ -231,7 +231,8 @@ CmakeCache.txt
 *.depend
 cmake.check_cache
 *.stamp
-CMakeCXXCompilerld.cpp
 CMakeCCompilerld.c
+CmakeConfigureLog.yaml
 *.txt
 *.rule
+build/
