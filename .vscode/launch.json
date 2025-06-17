@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "WhoLikesIt",
+      "request": "launch",
+      "mainClass": "WhoLikesIt",
+      "projectName": "LanguagePractice_909491bf"
+    },
+    {
+      "type": "java",
       "name": "TargetIndecies",
       "request": "launch",
       "mainClass": "TargetIndecies",
